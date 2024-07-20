@@ -1,12 +1,12 @@
-import React, { useCallback, useEffect } from 'react'
-import { useForm } from 'react-hook-form'
-import appwriteService from '../../appwrite/config.js'
-import {useNavigate} from 'react-router-dom'
-import {useSelector} from 'react-redux'
-import Input from '../Input'
-import Button from '../Button'
-import RTE from '../RTE.jsx'
-import Select from '../Select.jsx'
+import React, { useCallback, useEffect } from 'react';
+import { useForm } from 'react-hook-form';
+import appwriteService from '../../appwrite/config.js';
+import {useNavigate} from 'react-router-dom';
+import {useSelector} from 'react-redux';
+import Input from '../Input';
+import Button from '../Button';
+import RTE from '../RTE.jsx';
+import Select from '../Select.jsx';
 
 export default function PostForm({post}) {
 
